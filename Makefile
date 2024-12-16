@@ -1,8 +1,8 @@
 fib: fib.c
-	gcc -o fib fib.c
+	gcc -o fib.exe fib.c
 
 clean:
-	rm fib
+	rm fib.exe
 
 test: fib
 	bash test.sh
